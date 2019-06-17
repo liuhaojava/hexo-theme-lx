@@ -1,5 +1,7 @@
 # hexo-theme-lx
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2775ae5f3dce4ecda57b53c3790a4835)](https://app.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&utm_medium=referral&utm_content=blleng/hexo-theme-lx&utm_campaign=Badge_Grade_Dashboard)
+
 <p align="center">
 <a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE.md"><img alt="APM" src="https://img.shields.io/apm/l/vim-mode.svg"></a>
 </p>
