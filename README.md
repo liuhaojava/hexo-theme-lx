@@ -1,4 +1,5 @@
 # hexo-theme-lx
+
 Hexo博客主题Lx 
 
 >尚在开发中。
@@ -45,6 +46,7 @@ comment:
 ```
 
 在文章头填入`comment: true`即可在该页面启用评论:
+
 ```
 ---markdown
 date:
@@ -71,6 +73,7 @@ mathjax:
 ```
 
 在文章头填入`mathjax: true`即可在该页面启用评论:
+
 ```
 ---markdown
 date:
@@ -120,9 +123,13 @@ content
 ```
 
 说明：
+
 `url`：指向的链接
+
 `content`：内容
+
 `hand-o-right fa-fw`：图标，可换成其他图标。`fa-fw`：fix width
+
 `title`：title
 
 ### center-quote tag
@@ -144,4 +151,5 @@ content
 ```
 
 说明：
+
 `url`：视频链接
