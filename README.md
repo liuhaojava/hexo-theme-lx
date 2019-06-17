@@ -3,10 +3,10 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2775ae5f3dce4ecda57b53c3790a4835)](https://app.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&utm_medium=referral&utm_content=blleng/hexo-theme-lx&utm_campaign=Badge_Grade_Dashboard)
 
 <p align="center">
-<a href="https://github.com/blleng/hexo-theme-lx/releases/"><img src="https://badge.fury.io/gh/blleng%2Fhexo-theme-lx.svg" alt="GitHub version"></a>
-<a href="https://github.com/blleng/hexo-theme-lx/"><img alt="Hexo-Theme-Lx" src="https://img.shields.io/badge/hexo-theme--lx-blue.svg"></a>
+<a href="https://github.com/blleng/hexo-theme-lx/releases/"><img alt="GitHub release" src="https://img.shields.io/github/release/blleng/hexo-theme-lx.svg"></a>
 <a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/blleng/hexo-theme-lx.svg"></a>
 </p>
+
 Hexo博客主题Lx 
 
 >尚在开发中。
