@@ -1,5 +1,7 @@
 # hexo-theme-lx
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2775ae5f3dce4ecda57b53c3790a4835)](https://app.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&utm_medium=referral&utm_content=blleng/hexo-theme-lx&utm_campaign=Badge_Grade_Dashboard)
+
 <p align="center">
 <a href="https://www.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blleng/hexo-theme-lx&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/284cd6ca8fe04fddb3c04c2518cdc759"/></a>
 <a href="https://github.com/blleng/hexo-theme-lx/"><img alt="Hexo-Theme-Lx" src="https://img.shields.io/badge/hexo-theme--lx-blue.svg"></a>
