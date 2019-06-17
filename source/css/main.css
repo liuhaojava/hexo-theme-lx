@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 .lx-navigation .lx-cover .copy .display-tc {
-  display: table-cell !important;
+  display: table-cell;
   vertical-align: middle;
 }
 .lx-navigation .lx-cover .copy .display-tc div {
@@ -218,7 +218,7 @@ footer {
   background: #fafafa;
   clear: both;
   font-size: 12px;
-  padding: 20px 30px !important;
+  padding: 20px 30px;
 }
 .single footer > div {
   max-width: 960px;
@@ -270,7 +270,7 @@ a.category-link {
   border-bottom: 1px solid #f2f2f2;
 }
 .single .lx-post .lx-entry {
-  border-bottom: none !important;
+  border-bottom: none;
 }
 
 .lx-post .lx-entry > div {
@@ -279,7 +279,7 @@ a.category-link {
   margin-top: 0px;
 }
 .single .lx-post .lx-entry > div {
-  margin-right: 0 !important;
+  margin-right: 0;
   width: 100%;
 }
 .single .lx-post video, .lx-entry video {
