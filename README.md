@@ -47,8 +47,8 @@ comment:
 
 在文章头填入`comment: true`即可在该页面启用评论:
 
-```
----markdown
+```markdown
+---
 date: ...
 title: ...
 categories: ...
@@ -74,8 +74,8 @@ mathjax:
 
 在文章头填入`mathjax: true`即可在该页面启用评论:
 
-```
----markdown
+```markdown
+---
 date: ...
 title: ...
 categories: ...
