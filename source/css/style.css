@@ -315,7 +315,7 @@ pre .javascript .function {
   border-bottom: 1px solid #ccc;
   background-position: 100% 8px;
 }
-.blockquote-center p, blockquote p, .blockquote-center div, blockquote div, {
+.blockquote-center p, blockquote p, .blockquote-center div, blockquote div {
   text-align: center;
 }
 .btn {
