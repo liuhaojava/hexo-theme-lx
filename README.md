@@ -1,11 +1,8 @@
 # Hexo-Theme-Lx
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2775ae5f3dce4ecda57b53c3790a4835)](https://app.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&utm_medium=referral&utm_content=blleng/hexo-theme-lx&utm_campaign=Badge_Grade_Dashboard)
-
-<p align="center">
-<a href="https://github.com/blleng/hexo-theme-lx/releases/"><img alt="GitHub release" src="https://img.shields.io/github/release/blleng/hexo-theme-lx.svg"></a>
-<a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/blleng/hexo-theme-lx.svg"></a>
-</p>
+[![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
+[![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
 Hexo博客主题Lx 
 
