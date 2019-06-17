@@ -1,4 +1,4 @@
-# hexo-theme-lx
+# Hexo-Theme-Lx
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2775ae5f3dce4ecda57b53c3790a4835)](https://app.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&utm_medium=referral&utm_content=blleng/hexo-theme-lx&utm_campaign=Badge_Grade_Dashboard)
 
