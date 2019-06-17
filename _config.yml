@@ -1,0 +1,54 @@
+# 目录
+menu:
+  Home: /
+
+# 作者头像
+avatar: /images/person_1.jpg
+
+# 首页封面
+cover: /images/image_1.jpg
+#文章封面
+postcover: /images/image_3.jpg
+
+#footer
+footer:
+
+# 统计
+google_analytics: #谷歌统计ID
+baidu_analytics: #百度统计ID
+
+# 评论系统使用valine,appid和appkey在leancloud创建应用后获取。
+comment:
+  enable: false
+  appid:
+  appkey:
+  notify: false
+  verify: false
+  placeholder: 此处留言
+  avatar: identicon
+  guest_info: nick,mail,link
+  pageSize: 10
+  language: zh-cn
+
+#Mathjax
+mathjax:
+  enable: true
+  cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG
+
+
+#################################
+####除非您清楚后果,否则请勿修改以下内容####
+#################################
+
+# CSS文件
+stylesheets:
+- /css/main.css
+- /css/style.css
+
+# JS文件
+scripts:
+- /js/jquery.min.js
+- /js/jquery.easing.1.3.js
+- /js/jquery.waypoints.min.js
+- /js/jquery.stellar.min.js
+- /js/main.js

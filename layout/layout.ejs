@@ -1,0 +1,25 @@
+<%var pageTitle = page.title || config.title || '';if (is_archive()) pageTitle = 'Archives';if (is_tag()) pageTitle = 'Tag: ' + page.tag;if (is_category()) pageTitle = 'Category: ' + page.category;if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;if (is_year()) pageTitle += ': ' + page.year;pageTitle += ' | ' + config.title;%><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><%=pageTitle%></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %><% theme.stylesheets.forEach(url => { %>
+  <link rel="stylesheet" href="<%=url%>"> <% }); %><% } %>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  <script src="/js/modernizr-2.6.2.min.js"></script>
+  <%-partial('third-party/analytics/index')%>
+</head>
+<body>
+<%- body %>
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+<% if (theme.scripts !== undefined && theme.scripts.length > 0) { %><% theme.scripts.forEach(url => { %>
+<script src="<%=url%>"></script><% }); %><% } %>
+<%if (theme.comment.enable) {%><%-partial('third-party/comment')%><%}%>
+<%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%-partial('third-party/mathjax')%><%}%><%}%>
+</body>
+</html>

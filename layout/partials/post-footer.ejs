@@ -1,0 +1,54 @@
+<%if (page.prev) {%><div class="lx-navigation">
+	<div class="lx-cover prev lx-cover-sm" style="background-image: url(<%-page.prev.img%>)">
+		<div class="overlay"></div>
+		<a class="copy" href="<%-url_for(page.prev.path)%>">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3><%-page.prev.title%></h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div><%} else {%><div class="lx-navigation">
+	<div class="lx-cover prev lx-cover-sm" style="background-image: url(/images/image_2.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="#">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3>没有更新的文章</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div><%}%>
+<%if (page.next) {%><div class="lx-cover next lx-cover-sm" style="background-image: url(<%-page.next.img%>)">
+		<div class="overlay"></div>
+		<a class="copy" href="<%-url_for(page.next.path)%>">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3><%-page.next.title%></h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div><%} else{%><div class="lx-cover next lx-cover-sm" style="background-image: url(/images/image_2.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="#">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3>没有更早的文章</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div><%}%>
