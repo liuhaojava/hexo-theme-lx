@@ -22,7 +22,7 @@ Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
 ```yml
 google_analytics: ... ##谷歌统计ID
-baidu_analytics:... ##百度统计ID
+baidu_analytics: ... ##百度统计ID
 ```
 
 ### 评论
@@ -49,12 +49,12 @@ comment:
 
 ```
 ---markdown
-date:
-title:
-categories:
-tags:
+date: ...
+title: ...
+categories: ...
+tags: ...
 comment: true //启用评论
-mathjax:
+mathjax: ...
 ---
 ```
 
@@ -76,11 +76,11 @@ mathjax:
 
 ```
 ---markdown
-date:
-title:
-categories:
-tags:
-comment:
+date: ...
+title: ...
+categories: ...
+tags: ...
+comment: ...
 mathjax: true //启用Mathjax
 ---
 ```
