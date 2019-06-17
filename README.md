@@ -1,5 +1,8 @@
 # hexo-theme-lx
 
+<p align="center">
+<a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE.md"><img alt="APM" src="https://img.shields.io/apm/l/vim-mode.svg"></a>
+</p>
 Hexo博客主题Lx 
 
 >尚在开发中。
@@ -27,7 +30,7 @@ baidu_analytics: ... ##百度统计ID
 
 ### 评论
 
-评论使用valine，官网：https://valine.js.org
+评论使用valine，官网：[https://valine.js.org](https://valine.js.org)
 
 启用：在`themes/lx/_config.yml`填写
 
