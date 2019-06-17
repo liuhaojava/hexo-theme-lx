@@ -1,6 +1,7 @@
 # hexo-theme-lx
 
 <p align="center">
+<a href="https://www.codacy.com/app/blleng/hexo-theme-lx?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blleng/hexo-theme-lx&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/284cd6ca8fe04fddb3c04c2518cdc759"/></a>
 <a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE.md"><img alt="APM" src="https://img.shields.io/apm/l/vim-mode.svg"></a>
 </p>
 Hexo博客主题Lx 
