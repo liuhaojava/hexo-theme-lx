@@ -2,8 +2,11 @@
 Hexo博客主题Lx 
 
 >尚在开发中。
->归档、分类 、标签页面和菜单栏还有待完善。
+> 
+>归档、分类 、标签页面还有待完善。
+> 
 >另外：我们不生产代码，我们只是代码的搬运工。
+> 
 >参考了：Landscape的部分代码、NexT的写作标签样式`note`、`label`等。
 
 Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
