@@ -4,10 +4,10 @@
 
 /* global hexo */
 
-'use strict';
+"use strict";
 
 function postButton(args) {
-  args = args.join(' ').split(',');
+  args = args.join(" ").split(",");
   var url   = args[0];
   var text  = args[1] || '';
   var icon  = args[2] || '';
@@ -26,7 +26,7 @@ function postButton(args) {
   result.push('>');
   icon.length > 0 && result.push(`<i class="fa fa-${icon}"></i>`);
   text.length > 0 && result.push(text);
-  result.push('</a>');
+  result.push("</a>");
 
   return result.join('');
 }

@@ -8,8 +8,8 @@
 
 function postLabel(args) {
   args = args.join(' ').split('@');
-  var classes = args[0] || 'default';
-  var text    = args[1] || '';
+  var classes = args[0] || "default";
+  var text    = args[1] || "";
 
   !text && hexo.log.warn('Label text must be defined!');
 
