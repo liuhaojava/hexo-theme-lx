@@ -67,7 +67,7 @@
 
 	var goToTop = function() {
 
-		$('.js-gotop').on("click", function(event){
+		$(".js-gotop").on("click", function(event){
 			
 			event.preventDefault();
 
@@ -82,9 +82,9 @@
 
 			var $win = $(window);
 			if ($win.scrollTop() > 200) {
-				$('.js-top').addClass('active');
+				$(".js-top").addClass('active');
 			} else {
-				$('.js-top').removeClass("active");
+				$(".js-top").removeClass("active");
 			}
 
 		});

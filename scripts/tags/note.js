@@ -7,8 +7,8 @@
 "use strict";
 
 function postNote(args, content) {
-  return `<div class="note ${args.join(' ')}">
-            ${hexo.render.renderSync({text: content, engine: "markdown"}).split('\n').join('')}
+  return `<div class="note ${args.join(" ")}">
+            ${hexo.render.renderSync({text: content, engine: "markdown"}).split("\n").join("")}
           </div>`;
 }
 

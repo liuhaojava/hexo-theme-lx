@@ -9,12 +9,12 @@
 function postButton(args) {
   args = args.join(" ").split(",");
   var url   = args[0];
-  var text  = args[1] || '';
-  var icon  = args[2] || '';
-  var title = args[3] || '';
+  var text  = args[1] || "";
+  var icon  = args[2] || "";
+  var title = args[3] || "";
 
   if (!url) {
-    hexo.log.warn('URL can NOT be empty');
+    hexo.log.warn("URL can NOT be empty");
   }
 
   text = text.trim();
@@ -23,13 +23,13 @@ function postButton(args) {
 
   var result = [`<a class="btn" href="${url}"`];
   title.length > 0 && result.push(` title="${title}"`);
-  result.push('>');
+  result.push(">");
   icon.length > 0 && result.push(`<i class="fa fa-${icon}"></i>`);
   text.length > 0 && result.push(text);
   result.push("</a>");
 
-  return result.join('');
+  return result.join("");
 }
 
-hexo.extend.tag.register('button', postButton, {ends: false});
-hexo.extend.tag.register('btn', postButton, {ends: false});
+hexo.extend.tag.register("button", postButton, {ends: false});
+hexo.extend.tag.register("btn", postButton, {ends: false});
