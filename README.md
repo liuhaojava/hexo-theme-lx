@@ -16,6 +16,8 @@ Hexo博客主题Lx
 
 Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
+> 欢迎Fork，欢迎Clone，不拒绝Star
+
 ## 功能配置
 
 ### 统计
