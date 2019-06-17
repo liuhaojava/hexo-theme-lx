@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: .05em;
   margin-bottom: 10px;
 }
-#lx-aside .featured img, #lx-aside .page-title img {
+#lx-aside .featured .avatar img, #lx-aside .page-title .avatar img {
   margin-bottom: 30px;
   width: 80px;
   -webkit-border-radius: 50%;
