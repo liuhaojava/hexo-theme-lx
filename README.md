@@ -4,19 +4,24 @@
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
-Hexo博客主题Lx 
-
->尚在开发中。
-> 
->归档、分类 、标签页面还有待完善。
-> 
->另外：我们不生产代码，我们只是代码的搬运工。
-> 
+>尚在开发中。归档、分类 、标签页面还有待完善。
 >参考了：Landscape的部分代码、NexT的写作标签样式`note`、`label`等。
-
+>欢迎Fork，欢迎Clone，不拒绝Star
 Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
->欢迎Fork，欢迎Clone，不拒绝Star
+## 使用：
+
+在博客根目录:
+
+```bash
+$ git clone https://github.com/blleng/hexo-theme-lx themes/lx
+```
+
+更改站点设置文件`_config.yml`:
+
+```yml
+theme: lx
+```
 
 ## 功能配置
 
