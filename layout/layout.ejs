@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><%=pageTitle%></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="<%- theme.favicon%>">
   <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %><% theme.stylesheets.forEach(url => { %>
   <link rel="stylesheet" href="<%=url%>"> <% }); %><% } %>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">

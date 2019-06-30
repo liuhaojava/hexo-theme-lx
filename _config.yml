@@ -2,6 +2,10 @@
 menu:
   Home: /
 
+# favicon
+
+favicon: /favicon.ico
+
 # 作者头像
 avatar: /images/person_1.jpg
 
